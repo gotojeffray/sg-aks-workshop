@@ -360,3 +360,8 @@ terraform.txt
 **/wwwroot/css/site.min.css
 **/wwwroot/js/site.min.js
 **/wwwroot/lib/*
+
+cluster-provisioning/terraform/test.yaml
+test.sh
+start.sh
+.git_bak
