@@ -150,6 +150,7 @@ resource "kubernetes_deployment" "flux" {
             "--git-branch=master",
             "--git-poll-interval=120s",
             "--git-path=cluster-config",
+            "--sync-garbage-collection",
           ]
         }
       }
